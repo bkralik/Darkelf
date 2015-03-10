@@ -1,0 +1,12 @@
+<?php
+
+date_default_timezone_set('Europe/Prague');
+
+$DBOptions = array(
+    'driver'   => 'mysql',
+    'host'     => 'xxx.xxx.xxx.xxx',
+    'username' => 'yyyyyyyyyyyyyyy',
+    'password' => 'xxxxxxxxxxxxxxx',
+    'database' => 'yyyyyyyyyyyyyyy',
+    'charset'  => 'utf8',
+);
