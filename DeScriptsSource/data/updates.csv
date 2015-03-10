@@ -1,0 +1,76 @@
+year;month;day;change
+2009;06;;opraven bonus pentagramů
+2009;07;;opraven výpočet SK (dělení nulou)
+2009;07;;úpravy ve vzhledu
+2009;10;;opraven výpočet útoku/obrany (absolutní útok/obrana hrdiny se nezvyšuje procenty)
+2009;10;;změna vzhledu, novinky uvnitř jako první tab místo zabírání místa pod
+2009;10;;vylepšena detekce chyb u nových skritpů
+2009;10;;bonus věží v síle kouzel nyní není omezen počtem zemí (po poslovi je možné mít víc)
+2009;10;;přidán odhad útoku
+2009;10;;přidán odhad obrany
+2009;10;;upraven výpočet bonusu síly kouzel - bonusy cizích hrdinů
+2010;01;;přidán bonus obrany země pro výpočet síly vojska
+2010;01;;drobné opravy
+2010;02;;vylepšeno GUI
+2010;02;;oprava chyby u počítání magické obrany
+2010;02;;u generátoru kombinací jednotek přidáno upozornění na dlouhý výpis a vylepšen formát
+2010;02;;zásadní vnitřní změny ve skriptech a HTML
+2010;02;;přidáno označení povinných políček a zjednodušení novinek
+2010;02;;přidán generátor možných kombinací jednotek dle rasy a síly
+2010;02;;přidán bonus hrdiny proti rasám pro výpočet útoku a oprava výpočtu
+2011;02;;upraven výpočet pro simulaci počítání s celými čísly u výpočtu síly útoku - odstraněna možná odchylka
+2011;04;;drobná úprava GUI - odstraněna záložka O skriptech
+2011;06;;přidána funkcionalita počítání ceny vylepšení hrdinů
+2011;06;;úprava javascript kódu
+2011;06;25;oprava chyby v nové funkcionalitě, úprava GUI
+2011;08;18;doplnění možných bonusů obrany zemí pro ligu K1
+2011;08;20;doplnění možných bonusů obrany zemí pro ligu K1 ve výpočtu síly vojska
+2011;08;20;velká změna v kódu HTML a skritpů
+2011;08;20;nové hlášení chybových vstupů pomocí výjimek
+2011;08;20;upozornění u kombinací jednotek o problémech s pamětí a varování při síle přes 20 000
+2011;08;21;drobné změny v GUI
+2011;08;21;chyba nyní podbarvuje i políčko (zejména důležité v Opeře, kde zbarvení okraje dělalo problémy)
+2011;08;21;další větší změny ve vnitřním kódu
+2011;08;21;vylepšen a zrychlen výpis kombinací jednotek
+2011;09;19;drobné změny v GUI (a změny v kódu, zejména zmenšení stránek)
+2011;09;29;oprava překlepu
+2011;09;29;drobná změna GUI
+2011;10;01;změna v chování při chybě
+2011;10;01;drobná změna GUI
+2011;10;01;zmenšení javascript kódu
+2011;10;24;oprava výpočtu síly kouzla, zaokrouhlení výsledku dolů a zaokrouhlení mezivýsledku
+2011;10;24;přídán odkaz na IE kompatibilní starou verzi, časem odstraním snad :)
+2011;10;26;úprava síly kouzla, nyní je max SK o 1 menší, jak by podle všeho mělo být :)
+2011;11;17;přidána funkcionalita výpočtu efektu a ceny opravy artefaktů
+2011;12;24;aktualizace DB dle změn ve hře
+2012;01;21;oprava výpočtu obrany, nyní je obrana hrdiny správně násobena stavbami atd.
+2012;05;15;oprava výpočtu útoku a obrany - dříve chyba při použití služby pomoc rytíře
+2012;04;12;oprava kronikarskeho brku stoji 1 DEK
+2012;04;12;oprava nesmazani posledniho vysledku u artefaktu
+2012;05;13;oprava polní modlitebny - bonus se započítaval od útoku 70
+2012;05;18;přidána funkcionalita pro odhad ztrát v útoku
+2012;06;04;překlep u artefaktů setu legionáře, nyní již oprava v pořádku
+2012;06;04;zvýšen max. bonus hera na 3ciferný
+2012;06;04;oprava obrany u Amulet smrti, má dávat +10% obrany a ne +10 obrany
+2012;06;06;odstraněno průběžné zaokrouhlení při výpočtu útoku
+2012;06;08;další oprava výpočtu útoku, snad již poslední změna zaokrouhlování
+2012;06;10;oprava překlepu u artefaktu díky čemuž nefungovala cena opravy
+2012;06;10;větší úpravy vnitřního kódu
+2012;06;23;oprava konstanty pro odhad útoku, nyní by již měl odhadovat správně
+2012;07;10;doplnění bonusu země na obranu -55% a -60%
+2012;09;15;napsán vlastní skript pro tabové rozhraní, který umožňuje přímé odkazování na jednotlivé záložky (je možné si dát do oblíbených přímo odkaz na záložku)
+2012;09;15;přidán odkaz na alianční stránky
+2012;09;15;doplněný možnosti magického štítu po 5% do maxima 35%
+2012;09;16;zmenšení kódu
+2012;09;16;úprava posunů prvků stránky
+2012;09;17;skripty obsahují jen změny od poslední aktualizace
+2012;09;17;poslední změny přesunuty na samostatnou stránku s kompletní historií
+2012;11;04;upraven link na forum určené pro sripty
+2012;11;04;vylepšeny možnosti pro extrémní případy u kombinací jednotek
+2012;11;04;do výpočtu útoku a obrany přidán postih za strach
+2012;12;08;vylepšeno GUI, není již třeba klikat přímo na kolonky, stačí na text vedle
+2012;12;08;vylepšeno GUI, zarovnaní kolonek do sloupců
+2012;12;15;zmenšení HTML souboru odstraněním kódu bez efektu
+2013;05;01;oprava výpočtu útoku, strach snižoval útok více, než měl
+2013;05;01;výpočty se nyní spouští i při zmáčknutí ENTER, pokud je kurzor v políčku dotazované hodnoty (u porodnosti se pouští Odtah kol)
+2013;10;01;vynucení nepoužití cachovaných skriptů, pokud je nová verze

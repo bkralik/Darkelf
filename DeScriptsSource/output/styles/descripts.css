@@ -1,0 +1,58 @@
+/* CSS Document */
+/* Styles for DEscripts */
+
+noscript {
+	color:red;
+}
+
+input.number {
+	text-align:right;
+}
+
+div.multicolumn {
+	display:inline-block;
+}
+
+div.column {
+	float:left;
+	margin-right:1em;
+}
+
+div.left {
+	text-align:left;
+}
+
+div.singlecolumn {
+	display:inline-block;
+	text-align:left;
+}
+
+table.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h3.center {
+	text-align:center;
+}
+
+h4#version {
+	text-align:center;
+	margin-top:0ex;
+	margin-bottom:0ex;
+}
+
+div#neutral_lands, div#growth, div#army_strength, div#spell_power, div#magical_defence,
+div#attack_guess, div#defence_guess, div#casualties, div#unit_combinations, div#hero, div#artifacts {
+	text-align:center;
+}
+
+div#about ul {
+	margin-top:0ex;
+	margin-bottom:1ex;
+	list-style-type:circle;
+}
+
+div#artifacts table td {
+	width:6%;
+}

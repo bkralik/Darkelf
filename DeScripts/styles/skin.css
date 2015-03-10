@@ -1,0 +1,36 @@
+/* CSS Document */
+/* Skin for DEscripts */
+
+input.error {
+	background-color:mistyRose;
+	border-color:red; 
+}
+
+/* Tabber */
+
+div.tabber ul.tabber_menu {
+	border-bottom-color:black;
+}
+
+div.tabber ul.tabber_menu li.tabber_active {
+	background:white;
+	border-bottom-color:white;
+}
+
+div.tabber ul.tabber_menu li.tabber_inactive {
+	background:lightgrey;
+}
+
+
+div.tabber ul.tabber_menu li a {
+	color:black;
+}
+
+div.tabber ul.tabber_menu li.tabber_inactive a:hover {
+	color:red;
+}
+
+
+div.tabber div.tabber_tab {
+	border-color:black;
+}
