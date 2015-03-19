@@ -2,7 +2,8 @@
     "name": "bkralik/info-loader",
     "require": {
         "querypath/querypath": ">=3.0.0",
-        "dibi/dibi": "~2.3"
+        "dibi/dibi": "~2.3",
+	"elasticsearch/elasticsearch": "~1.0"
     },
     "authors": [
         {
