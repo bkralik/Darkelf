@@ -1,83 +1,83 @@
 id;name;type;set;attack_bonus;defence_bonus;attack;defence;spell_power;magical_defence;escape;survival;thieving;destruction;efficiency
-dratena plastenka;Drátěná pláštěnka;coat;squire;0;3;0;3;0;0;0;0;0;0;0
+dratena plastenka;Drátěná plášťenka;coat;squire;0;3;0;3;0;0;0;0;0;0;0
 vlci kozesina;Vlčí kožešina;coat;orc;0;0;0;0;0;0;2;1;0;0;0
-plast centuria;;coat;legionnaire;0;2;0;0;0;0;0;3;0;0;0
-hedvabny plast;Hedvábný plášť;coat;knight;0;2;0;0;0;10;0;0;0;0;0
-hornicka plastenka;Hornická pláštěnka;coat;dwarf;0;0;0;0;0;5;0;3;0;0;0
-plast z lorienu;;coat;elf;0;0;0;0;0;10;5;5;0;0;0
+plast centuria;Plášť centuria;coat;legionnaire;0;2;0;0;0;0;0;3;0;0;0
+hedvabny plast;Hedvábný plášť;coat;knight;0;0;0;0;1;0;0;0;0;6;0
+hornicka plastenka;Hornická pláštěnka;coat;dwarf;0;4;0;0;0;12;0;0;0;0;0
+plast z lorienu;Plášť z Lórienu;coat;elf;0;0;0;0;0;10;5;5;0;0;0
 plast temnoty;Plášť temnoty;coat;necromant;0;0;0;0;0;20;10;0;10;0;0
-cerveny plast;;coat;mage;0;0;0;0;0;22;10;10;0;0;0
+cerveny plast;Šarlatový plášť;coat;mage;0;0;0;0;0;22;10;10;0;0;0
 plast mlhy;Plášť mlhy;coat;dark elf;0;0;0;0;0;30;10;0;16;0;0
-hermelinovy plast;;coat;royal;0;20;0;8;0;20;0;0;0;0;0
+hermelinovy plast;Hermelínový plášť;coat;royal;0;20;0;8;0;20;0;0;0;0;0
 zelezny klobouk;Železný klobouk;head;squire;0;1;0;0;0;0;0;2;0;0;0
 skreti prilba;Skřetí přilba;head;orc;0;1;0;0;0;0;0;0;0;0;0
-prilba legionare;;head;legionnaire;0;5;0;0;0;0;0;2;0;0;0
-rytirska prilba;;head;knight;0;6;0;0;0;0;0;4;0;0;0
-trpaslici helma;;head;dwarf;0;6;0;0;0;0;0;5;0;0;0
-feanorova prilba;;head;elf;0;8;0;3;0;0;0;3;0;0;0
-helma nazgula;;head;necromant;0;20;0;0;0;0;0;5;0;0;2
+prilba legionare;Přilba legionáře;head;legionnaire;0;5;0;0;0;0;0;2;0;0;0
+rytirska prilba;Rytířská přilba;head;knight;0;0;1;0;0;0;0;4;0;0;0
+trpaslici helma;Trpasličí helma;head;dwarf;0;11;0;4;0;0;0;10;0;0;0
+feanorova prilba;Fëanorova přilba;head;elf;0;8;0;3;0;0;0;3;0;0;0
+helma nazgula;Helma nazghůla;head;necromant;0;20;0;0;0;0;0;5;0;0;2
 klobouk spicak;Klobouk Špičák;head;mage;0;10;0;0;0;10;0;0;0;0;2
 koruna nadvlady;Koruna nadvlády;head;dark elf;0;12;0;0;6;0;0;0;0;0;3
 svatovaclavska koruna;Svatováclavská koruna;head;royal;0;0;2;0;0;0;0;12;20;0;0
 zelezne kopi;Železné kopí;weapon;squire;1;2;0;0;0;0;0;0;0;0;0
 skreti savla;Skřetí šavle;weapon;orc;1;0;0;0;0;0;0;0;0;0;0
 gladius;Gladius;weapon;legionnaire;1;0;0;0;0;0;0;0;0;2;0
-rytirsky mec;Rytířský meč;weapon;knight;2;0;0;0;0;0;0;0;0;0;0
-valecna sekera;Válečná sekera;weapon;dwarf;2;0;0;0;0;0;0;0;0;0;0
-mec anduril;;weapon;elf;3;0;2;0;0;0;0;0;0;0;0
-angmarsky mec;;weapon;necromant;4;0;4;0;0;0;0;0;0;0;1
-angmarska hul;;weapon;necromant;3;0;0;0;12;0;0;0;0;0;1
-hul maga;;weapon;mage;3;0;3;0;13;0;0;0;0;0;0
-dark elfi hul;;weapon;dark elf;5;0;5;0;14;0;0;0;0;0;0
-mec krale vaclava;;weapon;royal;4;30;4;0;0;0;0;0;0;0;0
-lneny varkoc;;armor;squire;0;2;0;0;0;0;0;1;0;0;0
-skreti zbroj;;armor;orc;0;5;0;0;0;0;0;0;0;0;0
-legionarska zbroj;;armor;legionnaire;0;4;0;1;0;0;0;0;0;0;0
-platova zbroj;;armor;knight;0;8;0;0;0;0;0;0;0;0;1
-dratena kosile;;armor;dwarf;0;8;0;1;0;0;0;0;0;0;0
-mithrilova zbroj;;armor;elf;0;14;0;0;0;6;0;6;0;0;0
-cerna zbroj;;armor;necromant;0;30;0;0;0;10;0;10;0;0;0
-modre roucho;;armor;mage;0;20;0;3;0;12;0;0;0;0;0
-roucho dark elfa;;armor;dark elf;0;30;0;5;0;16;0;0;0;0;0
-zbroj ceskeho lva;;armor;royal;0;36;0;4;0;0;0;20;0;0;0
-mosazny prsten;;ring;squire;0;0;0;0;0;0;0;1;1;0;0
-zelezny prsten;;ring;orc;0;0;0;0;0;0;0;0;0;0;1
-rubinovy prsten;;ring;legionnaire;0;0;0;0;1;1;0;0;0;0;0
-safirovy prsten;;ring;knight;0;0;0;0;2;0;0;0;0;0;0
-smaragdovy prsten;;ring;dwarf;0;0;0;0;0;0;0;0;5;0;0
-prsten nadeje;;ring;elf;0;0;0;0;3;0;10;0;0;0;2
-amulet smrti;;ring;necromant;0;0;0;10;6;0;0;0;0;10;0
-draci kamen;;ring;mage;0;0;0;0;8;12;0;0;0;0;1
-jeden prsten;;ring;dark elf;0;0;0;0;16;0;0;10;0;12;0
-zezlo;;ring;royal;0;0;0;0;15;15;0;0;0;20;0
-dreveny stit;;shield;squire;0;8;0;0;0;0;0;0;0;0;0
-skreti stit;;shield;orc;0;2;0;2;0;0;0;0;0;0;0
-legionarsky stit;;shield;legionnaire;0;10;0;0;0;0;0;0;0;0;0
-erbovni stit;;shield;knight;0;12;0;0;0;0;0;0;0;0;0
-klanovy stit;;shield;dwarf;0;5;0;5;0;0;0;0;0;0;0
-elfi stit;;shield;elf;0;10;0;4;0;10;0;0;0;0;0
-stit smrtihlav;;shield;necromant;0;30;0;10;0;10;0;0;0;0;0
-ochranny amulet;;shield;mage;0;20;0;12;0;20;0;0;0;0;0
-ohnivy stit;;shield;dark elf;0;30;0;16;0;30;0;0;0;0;0
-kralovske jablko;;shield;royal;0;0;0;0;9;0;0;20;0;0;4
-ochranny pergamen;;pocket;squire;0;0;0;0;1;5;0;0;0;0;0
-lebka maga;;pocket;orc;0;0;0;0;0;0;0;0;0;10;0
-magicky svitek;;pocket;legionnaire;0;0;0;0;2;0;0;0;0;0;0
-kniha kouzel;;pocket;knight;0;0;0;0;2;10;0;0;0;0;0
-stela staresiny;;pocket;dwarf;0;0;0;0;0;12;0;0;0;0;0
-noldorsky luk;;pocket;elf;1;0;1;0;0;0;0;0;0;0;0
-kniha mrtvych;;pocket;necromant;0;0;0;0;8;10;0;0;0;10;0
-vestici koule;;pocket;mage;0;0;0;0;4;0;12;0;12;0;0
-palantyr moci;;pocket;dark elf;0;0;0;0;0;0;16;16;16;0;0
-kralovsky dekret;;pocket;royal;1;0;2;0;0;15;0;0;0;0;0
-kronikarsky brk;;pocket;special;3;30;3;0;0;0;0;0;0;0;0
-kozene boty;;shoes;squire;0;0;0;0;0;0;2;2;0;0;0
-skreti bagancata;;shoes;orc;0;0;0;0;0;0;0;0;1;0;0
-legionarske sandaly;;shoes;legionnaire;0;0;0;0;0;0;1;0;2;0;0
-zelezne obuti;;shoes;knight;0;5;0;0;0;0;0;2;0;0;0
-havirske boty;;shoes;dwarf;0;2;0;0;0;0;0;0;0;1;0
-zdobene body;;shoes;elf;0;2;0;0;0;0;10;4;0;0;0
-cerne holenice;;shoes;necromant;0;0;0;0;0;0;10;0;10;6;0
-boty z baziliska;;shoes;mage;0;10;0;0;6;0;12;0;0;0;0
-draci boty;;shoes;dark elf;0;16;0;0;0;0;20;0;0;0;1
-kralovske boty;;shoes;royal;0;0;0;7;8;0;20;0;0;0;0
+rytirsky mec;Rytířský meč;weapon;knight;2;0;4;0;0;0;0;0;0;3;0
+valecna sekera;Válečná sekera;weapon;dwarf;2;9;0;0;0;0;0;0;0;0;1
+mec anduril;Meč Andúril;weapon;elf;3;0;2;0;0;0;0;0;0;0;0
+angmarsky mec;Angmarský meč;weapon;necromant;4;0;4;0;0;0;0;0;0;0;1
+angmarska hul;Angmarská hůl;weapon;necromant;3;0;0;0;12;0;0;0;0;0;1
+hul maga;Hůl mága;weapon;mage;3;0;3;0;13;0;0;0;0;0;0
+dark elfi hul;Dark Elfí hůl;weapon;dark elf;5;0;5;0;14;0;0;0;0;0;0
+mec krale vaclava;Meč krále Václava;weapon;royal;4;30;4;0;0;0;0;0;0;0;0
+lneny varkoc;Lněný varkoč;armor;squire;0;2;0;0;0;0;0;1;0;0;0
+skreti zbroj;Skřetí zbroj;armor;orc;0;5;0;0;0;0;0;0;0;0;0
+legionarska zbroj;Legionářská zbroj;armor;legionnaire;0;4;0;1;0;0;0;0;0;0;0
+platova zbroj;Plátová zbroj;armor;knight;0;2;0;0;0;0;0;0;4;0;1
+dratena kosile;Drátěná košile;armor;dwarf;0;14;0;4;0;0;0;7;0;0;0
+mithrilova zbroj;Mithrilová zbroj;armor;elf;0;14;0;0;0;6;0;6;0;0;0
+cerna zbroj;Černá zbroj;armor;necromant;0;30;0;0;0;10;0;10;0;0;0
+modre roucho;Modré roucho;armor;mage;0;20;0;3;0;12;0;0;0;0;0
+roucho dark elfa;Roucho Dark Elfa;armor;dark elf;0;30;0;5;0;16;0;0;0;0;0
+zbroj ceskeho lva;Zbroj Českého lva;armor;royal;0;36;0;4;0;0;0;20;0;0;0
+mosazny prsten;Mosazný prsten;ring;squire;0;0;0;0;0;0;0;1;1;0;0
+zelezny prsten;Železný prsten;ring;orc;0;0;0;0;0;0;0;0;0;0;1
+rubinovy prsten;Rubínový prsten;ring;legionnaire;0;0;0;0;1;1;0;0;0;0;0
+safirovy prsten;Safírový prsten;ring;knight;0;0;0;0;1;0;0;0;2;0;0
+smaragdovy prsten;Smaragdový prsten;ring;dwarf;0;0;0;0;0;6;0;0;7;0;0
+prsten nadeje;Prsten naděje;ring;elf;0;0;0;0;3;0;10;0;0;0;2
+amulet smrti;Amulet smrti;ring;necromant;0;0;0;10;6;0;0;0;0;10;0
+draci kamen;Dračí kámen;ring;mage;0;0;0;0;8;12;0;0;0;0;1
+jeden prsten;Jeden prsten;ring;dark elf;0;0;0;0;16;0;0;10;0;12;0
+zezlo;Žezlo;ring;royal;0;0;0;0;15;15;0;0;0;20;0
+dreveny stit;Dřevěný štít;shield;squire;0;8;0;0;0;0;0;0;0;0;0
+skreti stit;Skřetí štít;shield;orc;0;2;0;2;0;0;0;0;0;0;0
+legionarsky stit;Legionářský štít;shield;legionnaire;0;10;0;0;0;0;0;0;0;0;0
+erbovni stit;Erbovní štít;shield;knight;0;3;0;0;0;10;0;0;0;0;0
+klanovy stit;Klanový štít;shield;dwarf;0;9;0;4;0;5;0;0;0;0;0
+elfi stit;Elfí štít;shield;elf;0;10;0;4;0;10;0;0;0;0;0
+stit smrtihlav;Štít Smrtihlav;shield;necromant;0;30;0;10;0;10;0;0;0;0;0
+ochranny amulet;Ochranný amulet;shield;mage;0;20;0;12;0;20;0;0;0;0;0
+ohnivy stit;Ohnivý štít;shield;dark elf;0;30;0;16;0;30;0;0;0;0;0
+kralovske jablko;Královské jablko;shield;royal;0;0;0;0;9;0;0;20;0;0;4
+ochranny pergamen;Ochranný pentragram;pocket;squire;0;0;0;0;1;5;0;0;0;0;0
+lebka maga;Lebka mága;pocket;orc;0;0;0;0;0;0;0;0;0;10;0
+magicky svitek;Magický svitek;pocket;legionnaire;0;0;0;0;2;0;0;0;0;0;0
+kniha kouzel;Kniha kouzel;pocket;knight;1;0;0;0;0;0;0;0;1;0;1
+stela staresiny;Stéla stařešiny;pocket;dwarf;0;0;0;2;0;10;0;0;0;0;0
+noldorsky luk;Noldorský luk;pocket;elf;1;0;1;0;0;0;0;0;0;0;0
+kniha mrtvych;Kniha mrtvých;pocket;necromant;0;0;0;0;8;10;0;0;0;10;0
+vestici koule;Věštící koule;pocket;mage;0;0;0;0;4;0;12;0;12;0;0
+palantyr moci;Palantir moci;pocket;dark elf;0;0;0;0;0;0;16;16;16;0;0
+kralovsky dekret;Královský dekret;pocket;royal;1;0;2;0;0;15;0;0;0;0;0
+kronikarsky brk;Kronikářský brk;pocket;special;3;30;3;0;0;0;0;0;0;0;0
+kozene boty;Kožené boty;shoes;squire;0;0;0;0;0;0;2;2;0;0;0
+skreti bagancata;Skřetí bagančata;shoes;orc;0;0;0;0;0;0;0;0;1;0;0
+legionarske sandaly;Legionářské sandály;shoes;legionnaire;0;0;0;0;0;0;1;0;2;0;0
+zelezne obuti;Železné obutí;shoes;knight;0;2;0;0;0;0;0;2;0;8;0
+havirske boty;Havířské boty;shoes;dwarf;0;5;0;2;0;0;0;0;0;1;0
+zdobene body;Zdobené boty;shoes;elf;0;2;0;0;0;0;10;4;0;0;0
+cerne holenice;Černé holenice;shoes;necromant;0;0;0;0;0;0;10;0;10;6;0
+boty z baziliska;Boty z baziliška;shoes;mage;0;10;0;0;6;0;12;0;0;0;0
+draci boty;Dračí boty;shoes;dark elf;0;16;0;0;0;0;20;0;0;0;1
+kralovske boty;Královské boty;shoes;royal;0;0;0;7;8;0;20;0;0;0;0
