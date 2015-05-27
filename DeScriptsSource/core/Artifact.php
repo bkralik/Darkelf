@@ -4,15 +4,17 @@ require_once 'ArtifactProperty.php';
 class Artifact {
 	const ID = 'id';
 	const SET = 'set';
+  const NAME = 'name';
 
-	private $id, $set;
+	private $id, $set, $name;
 	private $attack_bonus, $defence_bonus, $attack, $defence;
 	private $spell_power, $magical_defence;
 	private $escape, $survival, $thieving, $destruction, $efficiency;
 
-	public function __construct($id, $set, $attack_bonus, $defence_bonus, $attack, $defence, $spell_power, $magical_defence, $escape, $survival, $thieving, $destruction, $efficiency) {
+	public function __construct($id, $set, $name, $attack_bonus, $defence_bonus, $attack, $defence, $spell_power, $magical_defence, $escape, $survival, $thieving, $destruction, $efficiency) {
 		$this->id = $id;
 		$this->set = (string) $set;
+    $this->name = (string) $name;
 		$this->attack_bonus = (int) $attack_bonus;
 		$this->defence_bonus = (int) $defence_bonus;
 		$this->attack = (int) $attack;
@@ -28,7 +30,7 @@ class Artifact {
 
 	public static function constructFromArray($array) {
 		return new static(
-			$array[static::ID], $array[static::SET],
+			$array[static::ID], $array[static::SET], $array[static::NAME], 
 			$array[ArtifactProperty::ATTACK_BONUS], $array[ArtifactProperty::DEFENCE_BONUS], $array[ArtifactProperty::ATTACK], $array[ArtifactProperty::DEFENCE],
 			$array[ArtifactProperty::SPELL_POWER], $array[ArtifactProperty::MAGICAL_DEFENCE],
 			$array[ArtifactProperty::ESCAPE], $array[ArtifactProperty::SURVIVAL], $array[ArtifactProperty::THIEVING], $array[ArtifactProperty::DESTRUCTION], $array[ArtifactProperty::EFFICIENCY]);
@@ -40,6 +42,10 @@ class Artifact {
 
 	public function getSet() {
 		return $this->set;
+	}
+  
+  public function getName() {
+		return $this->name;
 	}
 
 	public function getAttack_bonus() {

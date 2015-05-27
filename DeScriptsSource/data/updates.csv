@@ -75,3 +75,4 @@ year;month;day;change
 2013;05;01;výpočty se nyní spouští i při zmáčknutí ENTER, pokud je kurzor v políčku dotazované hodnoty (u porodnosti se pouští Odtah kol)
 2013;10;01;vynucení nepoužití cachovaných skriptů, pokud je nová verze
 2015;05;26;úprava artefaktů a cen opravy (trpaslík a rytíř)
+2015;05;27;doplnění nových artefaktů, automatické generování seznamu artefaktů

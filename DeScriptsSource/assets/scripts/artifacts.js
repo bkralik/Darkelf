@@ -29,6 +29,20 @@ var artifacts = new function() {
 	/***** PUBLIC *****/
 	// EVENT FUNCTION
 	this.update = function(form, item) {
+    function getRepairCost(set) {
+      if (typeof DB.Artifacts.Repair_costs[set] != "undefined") {
+        return(DB.Artifacts.Repair_costs[set]);
+      } else {
+        seta = set.split("-");
+        if (typeof seta[1] != "undefined") {
+          return(parseInt(seta[1]));
+        } else {
+          return(0);
+        }
+        
+      } 
+    }
+  
 		artifacts[item] = DB.Artifacts[form[item].getSelectedValue()];
 		
 		form[item + "_attack_bonus"].value = artifacts[item].attack_bonus;
@@ -42,7 +56,7 @@ var artifacts = new function() {
 		form[item + "_thieving"].value = artifacts[item].thieving;
 		form[item + "_destruction"].value = artifacts[item].destruction;
 		form[item + "_efficiency"].value = artifacts[item].efficiency;
-		form[item + "_repair_cost"].value = DB.Artifacts.Repair_costs[artifacts[item].set];
+		form[item + "_repair_cost"].value = getRepairCost(artifacts[item].set);
 
 		var attack_bonus = 0;
 		var defence_bonus = 0;
@@ -87,7 +101,7 @@ var artifacts = new function() {
 				destruction += parseInt(artifacts[i].destruction) + (is_full_set?1:0);
 			if(parseInt(artifacts[i].efficiency))
 				efficiency += parseInt(artifacts[i].efficiency) + (is_full_set?1:0);
-			repair_cost += parseInt(DB.Artifacts.Repair_costs[artifacts[i].set]);
+			repair_cost += parseInt(getRepairCost(artifacts[i].set));
 		}
 		
 		form["total_attack_bonus"].value = attack_bonus;

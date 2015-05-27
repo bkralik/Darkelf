@@ -12,6 +12,7 @@ final class ArtifactProperty {
 	const DESTRUCTION = 'destruction';
 	const EFFICIENCY = 'efficiency';
 
+
 	public static function values() {
 		return array(self::ATTACK_BONUS, self::DEFENCE_BONUS, self::ATTACK, self::DEFENCE, self::SPELL_POWER, self::MAGICAL_DEFENCE,
 			self::ESCAPE, self::SURVIVAL, self::THIEVING, self::DESTRUCTION, self::EFFICIENCY);
