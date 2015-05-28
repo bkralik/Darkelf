@@ -28,7 +28,7 @@ function artifactOptionList($type) {
 		"legionnaire" => "legionář",
 		"mage" => "mág",
 		"necromant" => "nekromant",
-		"orc" => "ork",
+		"orc" => "skřet",
 		"royal" => "královský set",
     "dark elf" => "dark elf",
 		"squire" => "zbrojnoš");
