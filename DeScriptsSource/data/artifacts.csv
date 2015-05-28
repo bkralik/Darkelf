@@ -58,7 +58,7 @@ draci kamen;Dračí kámen;ring;mage;0;0;0;0;8;12;0;0;0;0;1
 jeden prsten;Jeden prsten;ring;dark elf;0;0;0;0;16;0;0;10;0;12;0
 zezlo;Žezlo;ring;royal;0;0;0;0;15;15;0;0;0;20;0
 zeliho smaragd;Zelího smaragd;ring;special-10;0;8;1;8;0;0;0;0;0;0;0
-pattonuv safir;Pattonův safír;ring;special-10;0;0;0;0;8;0;0;0;0;0;3
+pattonuv safir;Pattonův safír;ring;special-10;0;0;0;0;0;0;5;0;0;5;3
 dreveny stit;Dřevěný štít;shield;squire;0;8;0;0;0;0;0;0;0;0;0
 skreti stit;Skřetí štít;shield;orc;0;2;0;2;0;0;0;0;0;0;0
 legionarsky stit;Legionářský štít;shield;legionnaire;0;10;0;0;0;0;0;0;0;0;0
@@ -84,7 +84,7 @@ palantyr moci;Palantir moci;pocket;dark elf;0;0;0;0;0;0;16;16;16;0;0
 kralovsky dekret;Královský dekret;pocket;royal;1;0;2;0;0;15;0;0;0;0;0
 kronikarsky brk;Kronikářský brk;pocket;special-1;3;30;3;0;0;0;0;0;0;0;0
 irsilova mandragora;Irsilova mandragora;pocket;special-6;0;10;0;3;0;0;0;0;10;0;0
-paprskova houba;Paprskova houba;pocket;special-8;0;0;0;0;0;0;0;20;10;20;0
+paprskova houba;Paprskova houba;pocket;special-8;0;0;0;0;0;0;0;10;10;20;0
 yakushiho mesec;Yakushiho měšec;pocket;special-6;0;0;0;3;0;0;6;0;20;0;0
 kronikarske brcko;Kronikářské brčko;pocket;special-1;1;20;1;0;0;0;0;0;0;0;0
 kozene boty;Kožené boty;shoes;squire;0;0;0;0;0;0;2;2;0;0;0
