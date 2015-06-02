@@ -60,12 +60,13 @@ var growth = new function() {
 		var growth_rate = getGrowthRate(form);
 		var granary = form.granary.checked;
 		var turns = 0;
-		if(inhabitants === oneTurnGrowth(inhabitants, growth_rate, granary)) {
-			alert("Obyvatelé nepřibývají.");
-			return;
-		}
 		while(inhabitants < demanded_inhabitants) {
-			inhabitants += oneTurnGrowth(inhabitants, growth_rate, granary);
+      var growth = oneTurnGrowth(inhabitants, growth_rate, granary);
+      if(growth == 0) {
+  			alert("Obyvatelé nepřibývají, nelze dosáhnout požadovaného počtu.");
+  			return;
+		  }
+			inhabitants = inhabitants + growth;
 			turns++;
 		}
 		form.inhabitants_output.value = inhabitants;

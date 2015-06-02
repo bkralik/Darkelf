@@ -76,3 +76,4 @@ year;month;day;change
 2013;10;01;vynucení nepoužití cachovaných skriptů, pokud je nová verze
 2015;05;26;úprava artefaktů a cen opravy (trpaslík a rytíř)
 2015;05;27;doplnění nových artefaktů, automatické generování seznamu artefaktů
+2015;06;02;bugfix výpočtu porodnosti
