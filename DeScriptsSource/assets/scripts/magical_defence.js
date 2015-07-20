@@ -32,7 +32,7 @@ var magical_defence = new function() {
 		magical_defence = eval("(" + magical_defence + magic_tower + "+" + (heroes_bonus/100) + ")");
 		// Mozna se pocita dohromady s ostatnimi bonusy
 		magical_defence *= magic_shield;
-		if(magic_grove) magical_defence += 5;
+		if(magic_grove) magical_defence += 10;
 		form.magical_defence_output.value = Math.floor(magical_defence);
 	};
 };
