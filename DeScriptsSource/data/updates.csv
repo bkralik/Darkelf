@@ -79,3 +79,4 @@ year;month;day;change
 2015;06;02;bugfix výpočtu porodnosti
 2015;06;09;bugfix artefaktu Torgova hůl
 2015;07;20;bugfix magického háje (MO 5 -> 10)
+2015;07;27;konečně správný bugfix artefaktu Torgova hůl
