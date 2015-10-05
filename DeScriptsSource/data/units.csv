@@ -17,7 +17,7 @@ wraith;necromancers;;nekromanti;5;3;10;150;15
 assassin;magi;;mágové;2;5;1;0;4
 demon;magi;;mágové;7;2;6;0;20
 mage;magi;;mágové;3;5;7;0;15
-archer;elves;;elfové;2;6;1;30;0
+archer;elves;;elfové;2;6;1;25;0
 hoplite;elves;;elfové;6;4;5;60;8
 healer;elves;;elfové;5;5;9;100;15
 marksman;dark elves;;temní elfové;3;5;1;30;0
@@ -29,6 +29,6 @@ elder;dwarves;;trpaslíci;3;7;9;200;2
 footman;hobbits;;hobiti;2;2;3;22;0
 cavalier;hobbits;;hobiti;4;2;10;100;10
 alchemist;hobbits;;hobiti;1;2;17;100;25
-oakhead;ents;;enti;4;6;0;20;0
-quickbeam;ents;;enti;8;8;0;100;0
-gnarled willow;ents;;enti;3;4;0;200;0
+oakhead;ents;dubodub;enti;4;6;0;20;0
+quickbeam;ents;listovlas;enti;8;8;0;100;0
+gnarled willow;ents;vrbák;enti;2;6;0;200;0

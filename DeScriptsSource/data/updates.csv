@@ -80,3 +80,6 @@ year;month;day;change
 2015;06;09;bugfix artefaktu Torgova hůl
 2015;07;20;bugfix magického háje (MO 5 -> 10)
 2015;07;27;konečně správný bugfix artefaktu Torgova hůl
+2015;10;05;úprava DEScripts podle změn z 1. 10. 2015
+2015;10;05; - Změna entích jednotek (trojky síla 3/4 na 2/6)
+2015;10;05; - Změna elfích jednotek (jedničky žold 30 na 25)
