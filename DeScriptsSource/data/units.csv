@@ -21,7 +21,7 @@ archer;elves;;elfové;2;6;1;25;0
 hoplite;elves;;elfové;6;4;5;60;8
 healer;elves;;elfové;5;5;9;100;15
 marksman;dark elves;;temní elfové;3;5;1;30;0
-fencer;dark elves;;temní elfové;7;3;5;50;10
+fencer;dark elves;;temní elfové;8;3;5;50;9
 witcher;dark elves;;temní elfové;4;5;10;60;10
 axeman;dwarves;;trpaslíci;2;7;1;10;0
 harrier;dwarves;;trpaslíci;5;6;3;40;2
@@ -31,4 +31,4 @@ cavalier;hobbits;;hobiti;4;2;10;100;10
 alchemist;hobbits;;hobiti;1;2;17;100;25
 oakhead;ents;dubodub;enti;4;6;0;20;0
 quickbeam;ents;listovlas;enti;8;8;0;100;0
-gnarled willow;ents;vrbák;enti;2;6;0;200;0
+gnarled willow;ents;vrbák;enti;3;6;0;200;0
