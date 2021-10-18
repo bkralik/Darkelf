@@ -1,7 +1,7 @@
 <?php
 require_once 'core/UpdatesDB.php';
 ?>
-	<b>Pokud objevíte nějaké chyby nebo budete mít návrhy na zlepšení, napište na bkralik(slaneček)bkralik(tečka)cz nebo do <a href="http://www.darkelf.cz/ch/posta.asp?forum_hrac=327650" title="nutno být přihlášen v DE">bkralikovi ve hře</a>.</b><br>
+	<b>Pokud objevíte nějaké chyby nebo budete mít návrhy na zlepšení, napište na bkralik(slaneček)bkralik(tečka)cz, do pošty <a href="http://www.darkelf.cz/ch/posta.asp?forum_hrac=327650" title="nutno být přihlášen v DE">bkralikovi ve hře</a> nebo na <a href="https://discord.gg/QaqPXw94hy">darkelf discord</a>.</b><br>
 	<h3>Možné problémy:</h3>
 	<ul>
 		<li>skripty nefungují - není povolen/dostupný javascript - povolte nebo zapněte skripty</li>
@@ -20,4 +20,4 @@ for ($u = 0; $u < 2; $u++) {
 ?>
 	<a href="updates.html">starší změny</a><br>
 	<br>
-	<i>vytvořil Ril (2009-<?php echo $updates[$versions[0]]->getYear(); ?>), provozuje bkralik</i>
+	<i>vytvořil Ril (2009-<?php echo $updates[$versions[0]]->getYear(); ?>), provozuje bkralik (zdrojáky na <a href="https://github.com/bkralik/Darkelf">githubu</a>)</i>
