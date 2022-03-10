@@ -30,7 +30,7 @@
 				<label><input name="lesser_magetower" size="3" maxlength="3" value=""> malých magických věží</label><br>
 				<label><input name="medium_magetower" size="3" maxlength="3" value=""> středních magických věží</label><br>
 				<label><input name="large_magetower" size="3" maxlength="3" value=""> velkých magických věží</label><br>
-				<label><input name="heroes_bonus" size="3" maxlength="2" value="">% bonus vlastních hrdinů</label><br>
+				<label><input name="heroes_bonus" size="3" maxlength="3" value="">% bonus vlastních hrdinů</label><br>
 				<label><input name="others_heroes_bonus" size="3" maxlength="3" value="">% bonus cizích hrdinů</label><br>
 			</div><br>
 			<button type="button" onclick="spell_power.updateSpellPowerBonus(this.form);">Přepočítat % bonus</button>

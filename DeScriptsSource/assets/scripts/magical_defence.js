@@ -23,13 +23,17 @@ var magical_defence = new function() {
 			return;
 		}
 		var magic_grove = form.magic_grove.checked;
-		var magic_tower = form.magic_tower.getSelectedValue();
+		var magic_tower_summary = form.magic_tower.getSelectedValue().split(";");
 		var magic_shield = parseFloat(form.magic_shield.getSelectedValue());
+
+		var magic_tower_add = parseFloat(magic_tower_summary[0]);
+		var magic_tower_multi = parseFloat(magic_tower_summary[1]);
 
 		var magical_defence = 0;
 		if(houses > 0) magical_defence = 3 * mages * mages / houses;
-		//                           cislo            + cislo)*(cislo +     0,xx )
-		magical_defence = eval("(" + magical_defence + magic_tower + "+" + (heroes_bonus/100) + ")");
+
+		magical_defence = magical_defence * (magic_tower_multi + heroes_bonus / 100) + magic_tower_add;
+
 		// Mozna se pocita dohromady s ostatnimi bonusy
 		magical_defence *= magic_shield;
 		if(magic_grove) magical_defence += 10;

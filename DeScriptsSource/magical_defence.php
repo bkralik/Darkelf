@@ -7,13 +7,13 @@
 	<label><input type="checkbox" name="magic_grove"> Magický háj</label><br>
 	<br>
 	<select name="magic_tower">
-		<option value=")*(1">Bez magické věže</option>
-		<option value="+50)*(1">Obranná magická věž</option>
-		<option value=")*(1.1">Obřadní svatyně</option>
-		<option value=")*(1.2">Malá magická věž</option>
-		<option value=")*(1.5">Střední magická věž</option>
-		<option value=")*(2.0">Velká magická věž</option>
-		<option value=")*(4.0">Chrám</option>
+		<option value="0;1">Bez magické věže</option>
+		<option value="50;1">Obranná magická věž</option>
+		<option value="5;1">Obřadní svatyně</option>
+		<option value="20;1">Malá magická věž</option>
+		<option value="0;1.5">Střední magická věž</option>
+		<option value="0;2.0">Velká magická věž</option>
+		<option value="0;4.0">Chrám</option>
 	</select> <br>
 	<br>
 	<label><input name="heroes_bonus" size="2" maxlength="2" value="">% bonus hrdiny</label><br>

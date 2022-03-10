@@ -16,7 +16,7 @@ var spell_power = new function() {
 		var others_heroes_bonus = form.others_heroes_bonus.getInt(0);
 
 		var bonus = 0;
-		bonus += 5*lesser_magetower;
+		bonus += 7*lesser_magetower;
 		bonus += 10*medium_magetower;
 		bonus += 20*large_magetower;
 		bonus += heroes_bonus;

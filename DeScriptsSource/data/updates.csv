@@ -86,3 +86,9 @@ year;month;day;change
 2017;01;07;úprava DEScripts podle změn z 1. 1. 2017
 2017;01;07; - Změna entích jednotek (trojky síla 2/6 na 3/6)
 2017;01;07; - Změna DE jednotek (dvojky síla 7/3 na 8/3)
+2022;03;10;oprava GUI výpočtu SK, možnost zadání bonusu vlastních hrdinů >99%
+2022;03;10;bugfix výpočtu MO - OMV se nenásobí bonusem hrdiny
+2022;03;10;úprava DEScript podle změn z 7. 3. 2022
+2022;03;10; - Obřadní svatyně zvyšuje MO o +5 místo 10%
+2022;03;10; - Malá magická věž zvyšuje MO o +20 místo 20%
+2022;03;10; - Malá magická věž zvyšuje celkovou SK o 7% místo 5%
