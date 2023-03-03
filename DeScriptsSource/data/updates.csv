@@ -94,3 +94,4 @@ year;month;day;change
 2022;03;10; - Malá magická věž zvyšuje celkovou SK o 7% místo 5%
 2023;01;28;velký update artefaktů dle změn z 16. 12. 2022
 2023;01;28; - Vytvořen automatický parser artefaktů, při změně tak jde seznam přegenerovat automaticky
+2023;03;03;úprava výpočtu penalizace útoku bez vyhlášení války

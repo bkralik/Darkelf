@@ -60,7 +60,7 @@ var army_strength = new function() {
 		attack *= attack_coeficient;
 		attack = Math.floor(attack);
 		if (attack_sanction) attack *= 0.7;
-		attack = Math.floor(attack);
+		attack = Math.round(attack);
 		if (knights_service) attack *= 1.1;
 		attack = Math.floor(attack);
 		// defence
