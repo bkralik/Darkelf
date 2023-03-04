@@ -16,7 +16,7 @@
 		<option value="0;4.0">Chrám</option>
 	</select> <br>
 	<br>
-	<label><input name="heroes_bonus" size="2" maxlength="2" value="">% bonus hrdiny</label><br>
+	<label><input name="heroes_bonus" size="3" maxlength="3" value="">% bonus hrdiny</label><br>
 	<br>
 	<select name="magic_shield">
 <?php
