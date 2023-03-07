@@ -22,6 +22,7 @@ function heroAtributeTableRow($attribute, $attribute_name) {
 		<option value="defensive_mage">Mág (obranář)</option>
 		<option value="thief">Zloděj</option>
 		<option value="novice_hero">Hrdina pro nováčky</option>
+        <option value="extra_hero">Extra válečník (útočník)</option>
 	</select><br>
 	<table class="center">
 		<tr><th>Vlastnosti</th><th>Aktuální level</th><th>Počet zlepšení</th></tr>

@@ -96,3 +96,4 @@ year;month;day;change
 2023;01;28; - Vytvořen automatický parser artefaktů, při změně tak jde seznam přegenerovat automaticky
 2023;03;03;úprava výpočtu penalizace útoku bez vyhlášení války
 2023;03;04;bugfix výpočtu magické obrany (zadání bonusu hrdiny > 99%)
+2023;03;07;uprava výpočtu tréninku hrdinů, přidání Extra válečníka (útočníka)
