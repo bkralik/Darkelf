@@ -7,7 +7,7 @@
 		</div>
 		<div class="column left">
 			<label><input type="checkbox" name="granary" checked> Sýpka</label><br>
-			<label><input type="checkbox" name="grove" checked> Magický Háj</label><br>
+			<label><input type="checkbox" name="grove"> Magický Háj</label><br>
 			<label><input type="radio" name="growth_rate" value="2"> Spokojenost</label><br>
 			<label><input type="radio" name="growth_rate" value="1" checked> Bez vlivu kouzel</label><br>
 			<label><input type="radio" name="growth_rate" value="0.5"> Nespokojenost</label>
