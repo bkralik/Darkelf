@@ -15,9 +15,10 @@ var growth = new function() {
 
 	// Simulates population growth in one turn
 	// Returns new inhabitants count
-	var oneTurnGrowth = function(inhabitants, growth_rate, granary) {
+	var oneTurnGrowth = function(inhabitants, growth_rate, granary, grove) {
 		var growth = Math.floor(inhabitants/10) + 2;
 		if(granary) growth += 4;
+		if (grove) growth += 2;
 		growth = Math.floor(growth * growth_rate/2);
 		return growth;
 	};
@@ -38,8 +39,9 @@ var growth = new function() {
 		}
 		var growth_rate = getGrowthRate(form);
 		var granary = form.granary.checked;
+		var grove = form.grove.checked;
 		for(var i=0;i<turns;i++)
-			inhabitants += oneTurnGrowth(inhabitants, growth_rate, granary);
+			inhabitants += oneTurnGrowth(inhabitants, growth_rate, granary, grove);
 		form.inhabitants_output.value = inhabitants;
 		form.turns_output.value = turns;
 	};
@@ -59,9 +61,10 @@ var growth = new function() {
 		}
 		var growth_rate = getGrowthRate(form);
 		var granary = form.granary.checked;
+		var grove = form.grove.checked;
 		var turns = 0;
 		while(inhabitants < demanded_inhabitants) {
-      var growth = oneTurnGrowth(inhabitants, growth_rate, granary);
+      var growth = oneTurnGrowth(inhabitants, growth_rate, granary, grove);
       if(growth == 0) {
   			alert("Obyvatelé nepřibývají, nelze dosáhnout požadovaného počtu.");
   			return;
