@@ -97,3 +97,4 @@ year;month;day;change
 2023;03;03;úprava výpočtu penalizace útoku bez vyhlášení války
 2023;03;04;bugfix výpočtu magické obrany (zadání bonusu hrdiny > 99%)
 2023;03;07;uprava výpočtu tréninku hrdinů, přidání Extra válečníka (útočníka)
+2025;06;18;úprava výpočtu porodnosti (přidán hájek) - by Beruska
